@@ -2,7 +2,7 @@ class Persona {
   // Campos o prpiedades
   String nombre;
   int edad;
-  String bio;
+  String _bio;
 
   // Get y sets
 
@@ -11,6 +11,6 @@ class Persona {
   // metodos
   @override
   String toString() {
-    return '$nombre';
+    return '$nombre  $_bio';
   }
 }

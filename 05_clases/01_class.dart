@@ -4,7 +4,7 @@ main() {
   final persona = new Persona();
   persona
     ..nombre = 'Daniel'
-    ..edad = 33
-    ..bio = 'Colombia';
+    ..edad = 33;
+  //.._bio = 'Colombia';
   print(persona);
 }

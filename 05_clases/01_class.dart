@@ -6,5 +6,8 @@ main() {
     ..nombre = 'Daniel'
     ..edad = 33;
   //.._bio = 'Colombia';
-  print(persona);
+
+  persona.bio = 'Cambie el valor';
+
+  print(persona.bio);
 }

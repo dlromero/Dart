@@ -1,6 +1,7 @@
 class Cuadrado {
   final int lado;
   final int area;
+  
 
   // Error
   // Cuadrado(int lado, int area) {

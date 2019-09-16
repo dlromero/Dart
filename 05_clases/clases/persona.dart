@@ -23,6 +23,14 @@ class Persona {
   // }
   // Persona(this.edad, this.nombre);
   Persona({this.edad = 0, this.nombre = 'Julio'});
+  Persona.persona30(this.nombre) {
+    this.edad = 30;
+  }
+
+  Persona.persona40(String nombre) {
+    this.edad = 40;
+    this.nombre = nombre;
+  }
 
   // metodos
   @override
